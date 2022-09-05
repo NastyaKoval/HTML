@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Регистрационная форма пользователя</legend>
+            <p>Имя 
+                <input type="text" name="text"> 
+            </p>
+            <p>Укажите возраст 
+                <select> 
+                    <option value="s1"> 10 - 15 лет</option>
+                    <option value="s2"> 15 - 20 лет</option>
+                    <option value="s3"> 20 - 30 лет</option>
+                    <option value="s4"> 30 - 40 лет</option>
+                    <option value="s5"> Больше 40 лет</option>
+                </select>
+                <p>Укажите пол 
+                    Мужской <input type="radio" name="select"> 
+                    Женский <input type="radio" name="select"> 
+                </p>
+                <p>
+                    Страна проживания
+                    <select>
+                        <option value="p1">Беларусь</option>
+                        <option value="p2">РФ</option>
+                        <option value="p3">Другая страна</option>
+                    </select>
+                </p>
+                <p>
+                    Владение языками
+                    <input type="checkbox" name="answer" value="t1"> Русский 
+                    <input type="checkbox" name="answer2" value="t2"> Беларусский 
+                    <input type="checkbox" name="answer3" value="t3"> Английский 
+                </p>
+                <p> Фото профиля 
+                    <input type="file">
+                </p> 
+                <p>
+                    <p>Логин: <input name="login" placeholder="Login"></p>
+                    <p>Пароль: <input type="password" name="pass" placeholder="Password"></p>
+                    <p>Повторите пароль: <input type="password" name="pass" placeholder="Password"></p>
+                </p>
+            </p>
+        </fieldset>
+        <p><input type="reset" value="Сброс"> <input type="submit" value="Отправить"></p>
+    </form>
+
+</body>
+</html>

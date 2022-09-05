@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script  src="form2.js"> </script>
+</head>
+<body>
+    <h1 align="center">Анкета</h1>
+        <p><col>Фамилия <input type="text" name="surname"> </p>
+        <p>Имя <input type="text" name="name"></p>
+        <p>Отчество <input type="text" name="middle_name"> </p>
+        <p>О себе сообщаю следующие сведения:</p>
+        <p>Пол <input type="radio" name="sex"> Мужской <input type="radio" name="sex"> Женский </p>
+        <p>Дата рождения <input type="date" name="date_of_birth"> </p>
+        <p>Количество полных лет <input type="number" min="18" max="63" name="age"> </p>
+        <p>Адрес места жительства (пребывания) <input type="text" name="adress"> </p>
+        <p>Номер контактного номера +375 <input type="tel" name="phone_number"> </p>
+        <p>Контактный e-mail <input type="url" name="email"> </p>
+        <p>Образование 
+            <input type="radio" name="education"> -основное общее среднее образование
+            <input type="radio" name="education"> -среднее(полное) общее высщее образование
+            <input type="radio" name="education"> -начальное образование
+            <input type="radio" name="education"> -иное
+        </p>
+        <p>Профессия (специальность) <input type="text" name="profession"> </p>
+        <p>Стаж работы по специальности 
+            <select name="experience">
+            <option value="s1">Менее года</option> 
+            <option value="s2">1-3 года</option>
+            <option value="s3">3-5 лет</option>
+            <option value="s4">5-15 лет</option>
+            <option value="s5">Более 15 лет</option>
+            </select>
+        </p>
+        <p>Предыдущее место работы <input type="text" name="prior_work"></p>
+        <p>Период работы на предыдущем месте с <input type="date" name="data1"> по <input type="date" name="data2"> </p>
+        <p><input type="reset" value="Очистить формус"> <input type="submit" value="Отправить данные"></p>
+
+           
+    
+
+</body>
+</html>

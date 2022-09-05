@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+          font-size: 50px;
+          color: #6E76F1;
+        }
+    
+        div {
+          margin: 0 auto;
+        }
+    
+        .form-container {
+          width: 400px;
+          padding: 20px;
+        }
+      </style>  
+
+</head>
+<body>
+    <h1 align="center">Cleverland</h1>
+    <h2 align="center">Формы. Элементы форм</h2>
+    <fieldset>
+        <legend>Данные пользователя</legend>
+        <p>Логин: <input name="login" placeholder="Login"></p>
+        <p>Пароль: <input type="password" name="pass" placeholder="Password"></p>
+        <p><input type="submit" value="Вход"></p>
+        </fieldset>
+        <fieldset>
+            <legend>Пожелания</legend>
+            <p>
+                <select>
+                    <option multiple>Орша</option>
+                    <option multiple>Минск</option>
+                    <option multiple>Гродно</option>
+                    <option multiple>Гомель</option>
+                    <option multiple>Витебск</option>
+                </select>
+                <p>
+                  <select name="select" size="4" multiple>
+                    <option value="s1">Машина</option>
+                    <option value="s2">Свой дом</option>
+                    <option value="s3">Квартира</option>
+                    <option selected value="s4">Сад</option>
+                    </select>
+                    <p> Просите что хотите <input type="text"/> 
+                    </p>
+                    <p>Текст</p>
+                    <textarea cols="60" rows="15" placeholder="Много текста"></textarea>
+                    <p><input type="submit" value="Отправить" ></p>
+
+            </p>
+            </fieldset>
+
+</body>
+</html>
